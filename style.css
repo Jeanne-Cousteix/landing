@@ -1,0 +1,106 @@
+/* Write some CSS below */
+.banner h1 {
+   color: white;
+   font-family:roboto;
+   font-size: 36px;
+   line-height: 0px;
+}
+ 
+.banner h2 {
+   color: white;
+   font-family:roboto;
+   font-size: 36px;
+   line-height: 40px;
+   padding-left: 20px;
+   margin-bottom: 30px;
+}
+.banner {
+    text-align: center;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin:0px;
+}
+ 
+body {
+    font-size: 20px;
+    font-family: roboto;
+    margin-left :100px;
+    margin-right: 100px;
+}
+ 
+.button-blue {
+	color: white;
+	font-weight: bold;
+	background-color: #0374B7;
+	border-radius: 4px;
+	text-decoration: none;
+	padding: 10px 20px
+}
+
+.button-blue:hover {
+	background-color: red;
+}
+
+img{
+	width: 200px;
+	margin-top: 20px;
+}
+
+h3{
+	font-size: 30px;
+	font-family: roboto;
+	margin-left: 500px;
+
+}
+.card{
+	display: flex;
+	align-items:center;
+	justify-content: left;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius:6px;
+	margin: 15px;
+	border-radius: 6px;
+    width: 350px;
+}
+.card img{
+	width: 200px;
+	border-radius: 6px;
+}
+
+.card h4{
+	flex-grow: 1;
+	padding-left:50px;
+	font-size: 24px;
+	font-family: roboto;
+	font-weight: bold;
+}
+
+.conclu p {
+	margin-left: 500px;
+	justify-content: center;
+}
+
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+a{
+	color: rgb(30,30,30);
+	text-decoration: none;
+	padding-left: 20px;
+	font-weight: bold;
+	font-family: roboto;
+}
+
+a:hover{
+	font-size: 30px;
+}
